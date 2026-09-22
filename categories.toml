@@ -82,6 +82,12 @@ emoji = "🛡️"
 description = "Detection rules, IDS/IPS and monitoring for defenders."
 
 [[category]]
+slug = "hardening"
+name = "Hardening & Defense"
+emoji = "🧱"
+description = "Harden hosts, servers and configurations to shrink the attack surface before an attack."
+
+[[category]]
 slug = "cloud-container"
 name = "Cloud & Container Security"
 emoji = "☁️"

@@ -7,7 +7,7 @@ Every entry links to the **original project** (never a fork), and the badges
 below each tool show live star counts and the last commit, so you can tell at a
 glance what is actively maintained.
 
-**89 tools** across **17 categories** · Found something missing? [Add a tool »](CONTRIBUTING.md)
+**93 tools** across **18 categories** · Found something missing? [Add a tool »](CONTRIBUTING.md)
 
 ---
 
@@ -26,6 +26,7 @@ glance what is actively maintained.
 - [🕵️ Digital Forensics & DFIR](#digital-forensics--dfir) (5)
 - [🌐 Threat Intelligence](#threat-intelligence) (5)
 - [🛡️ Detection & Blue Team](#detection--blue-team) (5)
+- [🧱 Hardening & Defense](#hardening--defense) (4)
 - [☁️ Cloud & Container Security](#cloud--container-security) (5)
 - [📱 Mobile Security](#mobile-security) (5)
 - [🩹 Vulnerability Scanning](#vulnerability-scanning) (5)
@@ -216,6 +217,19 @@ glance what is actively maintained.
 | **[Suricata](https://github.com/OISF/suricata)** | ![Stars](https://img.shields.io/github/stars/OISF/suricata?style=flat&label=&color=444) | ![Last commit](https://img.shields.io/github/last-commit/OISF/suricata?style=flat&label=&color=555) | High-performance network IDS, IPS and network security monitoring engine. |
 | **[Wazuh](https://github.com/wazuh/wazuh)** | ![Stars](https://img.shields.io/github/stars/wazuh/wazuh?style=flat&label=&color=444) | ![Last commit](https://img.shields.io/github/last-commit/wazuh/wazuh?style=flat&label=&color=555) | Open-source XDR/SIEM: host intrusion detection, log analysis and response. |
 | **[Zeek](https://github.com/zeek/zeek)** | ![Stars](https://img.shields.io/github/stars/zeek/zeek?style=flat&label=&color=444) | ![Last commit](https://img.shields.io/github/last-commit/zeek/zeek?style=flat&label=&color=555) | Powerful network analysis framework focused on security monitoring. |
+
+[⬆ Back to top](#contents)
+
+## Hardening & Defense
+
+*Harden hosts, servers and configurations to shrink the attack surface before an attack.*
+
+| Tool | Stars | Last commit | Description |
+| --- | --- | --- | --- |
+| **[koncreet](https://github.com/jimididit/koncreet)** | ![Stars](https://img.shields.io/github/stars/jimididit/koncreet?style=flat&label=&color=444) | ![Last commit](https://img.shields.io/github/last-commit/jimididit/koncreet?style=flat&label=&color=555) | First-hour hardening toolkit for a new Linux VPS. |
+| **[Lynis](https://github.com/CISOfy/lynis)** | ![Stars](https://img.shields.io/github/stars/CISOfy/lynis?style=flat&label=&color=444) | ![Last commit](https://img.shields.io/github/last-commit/CISOfy/lynis?style=flat&label=&color=555) | Security auditing and hardening tool for Unix/Linux systems. |
+| **[OpenSCAP](https://github.com/OpenSCAP/openscap)** | ![Stars](https://img.shields.io/github/stars/OpenSCAP/openscap?style=flat&label=&color=444) | ![Last commit](https://img.shields.io/github/last-commit/OpenSCAP/openscap?style=flat&label=&color=555) | Scans systems against SCAP security baselines and hardening policies. |
+| **[ssh-audit](https://github.com/jtesta/ssh-audit)** | ![Stars](https://img.shields.io/github/stars/jtesta/ssh-audit?style=flat&label=&color=444) | ![Last commit](https://img.shields.io/github/last-commit/jtesta/ssh-audit?style=flat&label=&color=555) | Audits SSH server and client configuration for weak settings. |
 
 [⬆ Back to top](#contents)
 

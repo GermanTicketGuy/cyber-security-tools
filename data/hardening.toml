@@ -1,0 +1,19 @@
+[[tool]]
+name = "koncreet"
+repo = "jimididit/koncreet"
+description = "First-hour hardening toolkit for a new Linux VPS."
+
+[[tool]]
+name = "Lynis"
+repo = "CISOfy/lynis"
+description = "Security auditing and hardening tool for Unix/Linux systems."
+
+[[tool]]
+name = "OpenSCAP"
+repo = "OpenSCAP/openscap"
+description = "Scans systems against SCAP security baselines and hardening policies."
+
+[[tool]]
+name = "ssh-audit"
+repo = "jtesta/ssh-audit"
+description = "Audits SSH server and client configuration for weak settings."
