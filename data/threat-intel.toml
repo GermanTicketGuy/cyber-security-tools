@@ -1,0 +1,24 @@
+[[tool]]
+name = "MISP"
+repo = "MISP/MISP"
+description = "Open-source threat intelligence and sharing platform for IoCs."
+
+[[tool]]
+name = "OpenCTI"
+repo = "OpenCTI-Platform/opencti"
+description = "Platform for structuring, storing and visualising cyber threat intelligence."
+
+[[tool]]
+name = "TheHive"
+repo = "TheHive-Project/TheHive"
+description = "Scalable, collaborative security incident response platform."
+
+[[tool]]
+name = "Yeti"
+repo = "yeti-platform/yeti"
+description = "Your everyday threat intelligence — repository of observables and TTPs."
+
+[[tool]]
+name = "MISP Warninglists"
+repo = "MISP/misp-warninglists"
+description = "Lists to warn against false positives in indicators of compromise."

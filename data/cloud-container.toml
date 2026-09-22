@@ -1,0 +1,24 @@
+[[tool]]
+name = "Prowler"
+repo = "prowler-cloud/prowler"
+description = "Security assessment and hardening for AWS, Azure, GCP and Kubernetes."
+
+[[tool]]
+name = "Trivy"
+repo = "aquasecurity/trivy"
+description = "All-in-one scanner for containers, IaC, code and cloud misconfigurations."
+
+[[tool]]
+name = "ScoutSuite"
+repo = "nccgroup/ScoutSuite"
+description = "Multi-cloud security auditing tool for AWS, Azure, GCP and more."
+
+[[tool]]
+name = "kube-hunter"
+repo = "aquasecurity/kube-hunter"
+description = "Hunts for security weaknesses in Kubernetes clusters."
+
+[[tool]]
+name = "Pacu"
+repo = "RhinoSecurityLabs/pacu"
+description = "AWS exploitation framework for testing cloud environment security."

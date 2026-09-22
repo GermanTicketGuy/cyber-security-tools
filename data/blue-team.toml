@@ -1,0 +1,24 @@
+[[tool]]
+name = "Sigma"
+repo = "SigmaHQ/sigma"
+description = "Generic, shareable detection rules for SIEMs — the 'YARA for logs'."
+
+[[tool]]
+name = "Wazuh"
+repo = "wazuh/wazuh"
+description = "Open-source XDR/SIEM: host intrusion detection, log analysis and response."
+
+[[tool]]
+name = "Suricata"
+repo = "OISF/suricata"
+description = "High-performance network IDS, IPS and network security monitoring engine."
+
+[[tool]]
+name = "Zeek"
+repo = "zeek/zeek"
+description = "Powerful network analysis framework focused on security monitoring."
+
+[[tool]]
+name = "Security Onion"
+repo = "Security-Onion-Solutions/securityonion"
+description = "Linux distro for threat hunting, network monitoring and log management."

@@ -1,0 +1,31 @@
+# OSINT tools. Each [[tool]] needs: name, repo (owner/name), description.
+
+[[tool]]
+name = "SpiderFoot"
+repo = "smicallef/spiderfoot"
+description = "Automates OSINT collection to map a target's attack surface from 200+ sources."
+
+[[tool]]
+name = "theHarvester"
+repo = "laramies/theHarvester"
+description = "Gathers emails, names, subdomains and hosts from public sources."
+
+[[tool]]
+name = "Sherlock"
+repo = "sherlock-project/sherlock"
+description = "Hunts down social-media accounts by username across hundreds of sites."
+
+[[tool]]
+name = "holehe"
+repo = "megadose/holehe"
+description = "Checks whether an email address is registered on 120+ websites."
+
+[[tool]]
+name = "GHunt"
+repo = "mxrch/GHunt"
+description = "Investigates Google accounts and their public traces (Maps, Calendar, etc.)."
+
+[[tool]]
+name = "Maigret"
+repo = "soxoj/maigret"
+description = "Collects a person's dossier by username from thousands of sites."

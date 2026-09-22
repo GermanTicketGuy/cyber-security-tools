@@ -1,0 +1,24 @@
+[[tool]]
+name = "OWASP Juice Shop"
+repo = "juice-shop/juice-shop"
+description = "Deliberately insecure web app for training and CTFs."
+
+[[tool]]
+name = "CTFd"
+repo = "CTFd/CTFd"
+description = "The easy-to-use, customisable capture-the-flag framework."
+
+[[tool]]
+name = "Metasploitable3"
+repo = "rapid7/metasploitable3"
+description = "Intentionally vulnerable VM for practising exploitation."
+
+[[tool]]
+name = "HackTricks"
+repo = "HackTricks-wiki/hacktricks"
+description = "Encyclopaedic collection of pentesting tricks and techniques."
+
+[[tool]]
+name = "OWASP WebGoat"
+repo = "WebGoat/WebGoat"
+description = "Deliberately insecure Java app teaching web security lessons."

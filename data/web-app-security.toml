@@ -1,0 +1,29 @@
+[[tool]]
+name = "OWASP ZAP"
+repo = "zaproxy/zaproxy"
+description = "Full-featured open-source web application security scanner and proxy."
+
+[[tool]]
+name = "Nuclei"
+repo = "projectdiscovery/nuclei"
+description = "Template-based vulnerability scanner powered by a huge community ruleset."
+
+[[tool]]
+name = "sqlmap"
+repo = "sqlmapproject/sqlmap"
+description = "Automates detection and exploitation of SQL injection flaws."
+
+[[tool]]
+name = "ffuf"
+repo = "ffuf/ffuf"
+description = "Fast web fuzzer for content discovery, parameters and virtual hosts."
+
+[[tool]]
+name = "Nikto"
+repo = "sullo/nikto"
+description = "Web server scanner that checks for thousands of dangerous files and misconfigs."
+
+[[tool]]
+name = "Wfuzz"
+repo = "xmendez/wfuzz"
+description = "Web application fuzzer for brute-forcing parameters, directories and forms."

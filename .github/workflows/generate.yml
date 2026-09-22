@@ -1,0 +1,48 @@
+name: Generate & validate
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "data/**"
+      - "categories.toml"
+      - "generate.py"
+  pull_request:
+    paths:
+      - "data/**"
+      - "categories.toml"
+      - "generate.py"
+  workflow_dispatch:
+  schedule:
+    # Weekly link-rot / fork / archived check every Monday at 06:00 UTC
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate README
+        run: python3 generate.py
+
+      - name: Fail if README is out of date
+        run: |
+          if ! git diff --quiet README.md; then
+            echo "::error::README.md is out of date. Run 'python3 generate.py' and commit the result."
+            git diff README.md
+            exit 1
+          fi
+
+      - name: Check repos (forks / archived / dead links)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 generate.py --check
+        continue-on-error: true

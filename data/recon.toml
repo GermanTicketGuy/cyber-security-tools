@@ -1,0 +1,29 @@
+[[tool]]
+name = "Amass"
+repo = "owasp-amass/amass"
+description = "In-depth attack-surface mapping and asset discovery by the OWASP project."
+
+[[tool]]
+name = "Subfinder"
+repo = "projectdiscovery/subfinder"
+description = "Fast passive subdomain discovery using many public sources."
+
+[[tool]]
+name = "httpx"
+repo = "projectdiscovery/httpx"
+description = "Fast and multi-purpose HTTP toolkit for probing live web servers."
+
+[[tool]]
+name = "Sublist3r"
+repo = "aboul3la/Sublist3r"
+description = "Enumerates subdomains using search engines and public data."
+
+[[tool]]
+name = "Naabu"
+repo = "projectdiscovery/naabu"
+description = "Fast port scanner focused on reliability and simplicity for recon pipelines."
+
+[[tool]]
+name = "reconftw"
+repo = "six2dez/reconftw"
+description = "Automated reconnaissance framework chaining dozens of recon tools."

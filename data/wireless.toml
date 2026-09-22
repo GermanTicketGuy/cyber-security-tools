@@ -1,0 +1,24 @@
+[[tool]]
+name = "Aircrack-ng"
+repo = "aircrack-ng/aircrack-ng"
+description = "Complete suite for auditing and cracking Wi-Fi (WEP/WPA) security."
+
+[[tool]]
+name = "bettercap"
+repo = "bettercap/bettercap"
+description = "Swiss-army knife for network attacks and monitoring (Wi-Fi, BLE, MITM)."
+
+[[tool]]
+name = "Wifite2"
+repo = "derv82/wifite2"
+description = "Automated wireless attack tool that orchestrates the aircrack-ng suite."
+
+[[tool]]
+name = "Wifiphisher"
+repo = "wifiphisher/wifiphisher"
+description = "Rogue access point framework for red-team Wi-Fi phishing assessments."
+
+[[tool]]
+name = "Kismet"
+repo = "kismetwireless/kismet"
+description = "Wireless network and device detector, sniffer and IDS."

@@ -1,0 +1,24 @@
+[[tool]]
+name = "Nmap"
+repo = "nmap/nmap"
+description = "The classic network discovery and security auditing scanner."
+
+[[tool]]
+name = "Masscan"
+repo = "robertdavidgraham/masscan"
+description = "Internet-scale port scanner able to scan the whole IPv4 range quickly."
+
+[[tool]]
+name = "RustScan"
+repo = "bee-san/RustScan"
+description = "Modern port scanner that feeds open ports straight into Nmap."
+
+[[tool]]
+name = "ZMap"
+repo = "zmap/zmap"
+description = "Fast single-packet network scanner designed for Internet-wide surveys."
+
+[[tool]]
+name = "AngryIP Scanner"
+repo = "angryip/ipscan"
+description = "Fast, cross-platform IP address and port scanner with a simple GUI."

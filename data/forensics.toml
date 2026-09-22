@@ -1,0 +1,24 @@
+[[tool]]
+name = "Volatility 3"
+repo = "volatilityfoundation/volatility3"
+description = "The advanced memory forensics framework for analysing RAM captures."
+
+[[tool]]
+name = "The Sleuth Kit"
+repo = "sleuthkit/sleuthkit"
+description = "Library and command-line tools for disk image and file-system forensics."
+
+[[tool]]
+name = "Autopsy"
+repo = "sleuthkit/autopsy"
+description = "Graphical digital forensics platform built on The Sleuth Kit."
+
+[[tool]]
+name = "Velociraptor"
+repo = "Velocidex/velociraptor"
+description = "Endpoint visibility and digital forensics at scale with its own query language."
+
+[[tool]]
+name = "GRR Rapid Response"
+repo = "google/grr"
+description = "Incident response framework for remote live forensics across many hosts."

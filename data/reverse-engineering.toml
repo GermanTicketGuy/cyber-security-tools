@@ -1,0 +1,24 @@
+[[tool]]
+name = "Ghidra"
+repo = "NationalSecurityAgency/ghidra"
+description = "The NSA's open-source software reverse-engineering suite and decompiler."
+
+[[tool]]
+name = "radare2"
+repo = "radareorg/radare2"
+description = "Unix-like reverse-engineering framework and command-line toolset."
+
+[[tool]]
+name = "Rizin"
+repo = "rizinorg/rizin"
+description = "Reverse-engineering framework forked from radare2 with a focus on usability."
+
+[[tool]]
+name = "Cutter"
+repo = "rizinorg/cutter"
+description = "Free and open-source GUI for reverse engineering, powered by Rizin."
+
+[[tool]]
+name = "x64dbg"
+repo = "x64dbg/x64dbg"
+description = "Open-source x64/x32 debugger for Windows binaries."

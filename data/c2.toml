@@ -1,0 +1,24 @@
+[[tool]]
+name = "Sliver"
+repo = "BishopFox/sliver"
+description = "Open-source, cross-platform adversary emulation and C2 framework."
+
+[[tool]]
+name = "Havoc"
+repo = "HavocFramework/Havoc"
+description = "Modern, malleable post-exploitation command-and-control framework."
+
+[[tool]]
+name = "Mythic"
+repo = "its-a-feature/Mythic"
+description = "Collaborative, multi-agent red-team C2 framework with a web UI."
+
+[[tool]]
+name = "Covenant"
+repo = "cobbr/Covenant"
+description = ".NET command-and-control framework for red-team operations."
+
+[[tool]]
+name = "Merlin"
+repo = "Ne0nd0g/merlin"
+description = "Cross-platform post-exploitation C2 server built on HTTP/2."

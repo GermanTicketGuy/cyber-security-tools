@@ -1,0 +1,106 @@
+# Category order and metadata for the generated README.
+# `slug` must match the filename in data/ (e.g. slug "osint" -> data/osint.toml).
+# To reorder sections, reorder the blocks below. To add a category, add a block
+# here AND create data/<slug>.toml.
+
+[[category]]
+slug = "osint"
+name = "OSINT"
+emoji = "🔎"
+description = "Open-source intelligence: gather public data on people, domains and infrastructure."
+
+[[category]]
+slug = "recon"
+name = "Reconnaissance & Attack Surface"
+emoji = "🛰️"
+description = "Subdomain discovery, asset enumeration and mapping an external attack surface."
+
+[[category]]
+slug = "network-scanning"
+name = "Network Scanning"
+emoji = "📡"
+description = "Port scanners and host discovery for auditing networks at any scale."
+
+[[category]]
+slug = "web-app-security"
+name = "Web Application Security"
+emoji = "🕸️"
+description = "Scanners, fuzzers and proxies for finding flaws in web applications and APIs."
+
+[[category]]
+slug = "exploitation"
+name = "Exploitation & Red Team"
+emoji = "💥"
+description = "Frameworks and tooling for offensive operations and adversary simulation."
+
+[[category]]
+slug = "c2"
+name = "Command & Control (C2)"
+emoji = "🎛️"
+description = "Post-exploitation command-and-control frameworks for red teams."
+
+[[category]]
+slug = "password-attacks"
+name = "Password Attacks & Wordlists"
+emoji = "🔑"
+description = "Password cracking, credential attacks and curated wordlists."
+
+[[category]]
+slug = "wireless"
+name = "Wireless & Network Attacks"
+emoji = "📶"
+description = "Wi-Fi auditing, man-in-the-middle and layer-2 attack tooling."
+
+[[category]]
+slug = "reverse-engineering"
+name = "Reverse Engineering"
+emoji = "🧬"
+description = "Disassemblers, decompilers and debuggers for taking binaries apart."
+
+[[category]]
+slug = "malware-analysis"
+name = "Malware Analysis"
+emoji = "🦠"
+description = "Sandboxes, detection rules and tooling for studying malicious code."
+
+[[category]]
+slug = "forensics"
+name = "Digital Forensics & DFIR"
+emoji = "🕵️"
+description = "Memory, disk and endpoint forensics for incident response investigations."
+
+[[category]]
+slug = "threat-intel"
+name = "Threat Intelligence"
+emoji = "🌐"
+description = "Platforms for collecting, correlating and sharing threat intelligence."
+
+[[category]]
+slug = "blue-team"
+name = "Detection & Blue Team"
+emoji = "🛡️"
+description = "Detection rules, IDS/IPS and monitoring for defenders."
+
+[[category]]
+slug = "cloud-container"
+name = "Cloud & Container Security"
+emoji = "☁️"
+description = "Auditing and attacking cloud accounts, Kubernetes and container images."
+
+[[category]]
+slug = "mobile"
+name = "Mobile Security"
+emoji = "📱"
+description = "Static and dynamic analysis for Android and iOS applications."
+
+[[category]]
+slug = "vulnerability-scanning"
+name = "Vulnerability Scanning"
+emoji = "🩹"
+description = "Scanners that find known vulnerabilities and misconfigurations."
+
+[[category]]
+slug = "training"
+name = "CTF & Training"
+emoji = "🎯"
+description = "Platforms, vulnerable targets and cheat sheets for learning offensive security."

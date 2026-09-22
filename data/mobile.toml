@@ -1,0 +1,24 @@
+[[tool]]
+name = "MobSF"
+repo = "MobSF/Mobile-Security-Framework-MobSF"
+description = "Automated static and dynamic analysis for Android and iOS apps."
+
+[[tool]]
+name = "Frida"
+repo = "frida/frida"
+description = "Dynamic instrumentation toolkit for hooking apps at runtime."
+
+[[tool]]
+name = "objection"
+repo = "sensepost/objection"
+description = "Runtime mobile exploration powered by Frida — no jailbreak/root needed."
+
+[[tool]]
+name = "Apktool"
+repo = "iBotPeaches/Apktool"
+description = "Reverse-engineers Android APKs: decode resources and rebuild them."
+
+[[tool]]
+name = "jadx"
+repo = "skylot/jadx"
+description = "Dex to Java decompiler with a handy GUI for inspecting Android apps."
