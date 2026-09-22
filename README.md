@@ -7,7 +7,7 @@ Every entry links to the **original project** (never a fork), and the badges
 below each tool show live star counts and the last commit, so you can tell at a
 glance what is actively maintained.
 
-**93 tools** across **18 categories** · Found something missing? [Add a tool »](CONTRIBUTING.md)
+**94 tools** across **19 categories** · Found something missing? [Add a tool »](CONTRIBUTING.md)
 
 ---
 
@@ -31,6 +31,7 @@ glance what is actively maintained.
 - [📱 Mobile Security](#mobile-security) (5)
 - [🩹 Vulnerability Scanning](#vulnerability-scanning) (5)
 - [🎯 CTF & Training](#ctf--training) (5)
+- [🧰 Utilities & Workflow](#utilities--workflow) (1)
 
 ---
 
@@ -286,6 +287,16 @@ glance what is actively maintained.
 | **[Metasploitable3](https://github.com/rapid7/metasploitable3)** | ![Stars](https://img.shields.io/github/stars/rapid7/metasploitable3?style=flat&label=&color=444) | ![Last commit](https://img.shields.io/github/last-commit/rapid7/metasploitable3?style=flat&label=&color=555) | Intentionally vulnerable VM for practising exploitation. |
 | **[OWASP Juice Shop](https://github.com/juice-shop/juice-shop)** | ![Stars](https://img.shields.io/github/stars/juice-shop/juice-shop?style=flat&label=&color=444) | ![Last commit](https://img.shields.io/github/last-commit/juice-shop/juice-shop?style=flat&label=&color=555) | Deliberately insecure web app for training and CTFs. |
 | **[OWASP WebGoat](https://github.com/WebGoat/WebGoat)** | ![Stars](https://img.shields.io/github/stars/WebGoat/WebGoat?style=flat&label=&color=444) | ![Last commit](https://img.shields.io/github/last-commit/WebGoat/WebGoat?style=flat&label=&color=555) | Deliberately insecure Java app teaching web security lessons. |
+
+[⬆ Back to top](#contents)
+
+## Utilities & Workflow
+
+*Terminals, clients and general-purpose tools that make security and sysadmin work smoother.*
+
+| Tool | Stars | Last commit | Description |
+| --- | --- | --- | --- |
+| **[Tabby](https://github.com/Eugeny/tabby)** | ![Stars](https://img.shields.io/github/stars/Eugeny/tabby?style=flat&label=&color=444) | ![Last commit](https://img.shields.io/github/last-commit/Eugeny/tabby?style=flat&label=&color=555) | Highly configurable terminal, SSH and serial client for managing hosts. |
 
 [⬆ Back to top](#contents)
 

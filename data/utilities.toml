@@ -1,0 +1,4 @@
+[[tool]]
+name = "Tabby"
+repo = "Eugeny/tabby"
+description = "Highly configurable terminal, SSH and serial client for managing hosts."

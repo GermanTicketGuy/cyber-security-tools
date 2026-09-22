@@ -110,3 +110,9 @@ slug = "training"
 name = "CTF & Training"
 emoji = "🎯"
 description = "Platforms, vulnerable targets and cheat sheets for learning offensive security."
+
+[[category]]
+slug = "utilities"
+name = "Utilities & Workflow"
+emoji = "🧰"
+description = "Terminals, clients and general-purpose tools that make security and sysadmin work smoother."
