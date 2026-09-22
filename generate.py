@@ -70,7 +70,7 @@ def build_readme(categories: list[dict], tools_by_cat: dict[str, list[dict]]) ->
     a = lines.append
 
     # --- Header -------------------------------------------------------------
-    a("# Awesome Security Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)")
+    a("# Cyber Security Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)")
     a("")
     a("> A curated, always-up-to-date arsenal of open-source cyber security tools —")
     a("> from OSINT and reconnaissance to malware analysis, red teaming and DFIR.")

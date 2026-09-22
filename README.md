@@ -1,4 +1,4 @@
-# Awesome Security Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Cyber Security Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated, always-up-to-date arsenal of open-source cyber security tools —
 > from OSINT and reconnaissance to malware analysis, red teaming and DFIR.
