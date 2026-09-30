@@ -27,3 +27,8 @@ description = "Web server scanner that checks for thousands of dangerous files a
 name = "Wfuzz"
 repo = "xmendez/wfuzz"
 description = "Web application fuzzer for brute-forcing parameters, directories and forms."
+
+[[tool]]
+name = "Darkmoon"
+repo = "ASCIT31/Dark-Moon"
+description = "Open source autonomous AI penetration testing platform that tests web apps and APIs and proves each finding with a real exploit."
