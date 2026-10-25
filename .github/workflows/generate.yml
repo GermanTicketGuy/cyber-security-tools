@@ -18,7 +18,7 @@ on:
     - cron: "0 6 * * 1"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -30,15 +30,24 @@ jobs:
         with:
           python-version: "3.12"
 
+      # Fails only if the data is broken (invalid TOML, unknown category, …),
+      # so a contributor only ever needs to edit files in data/.
       - name: Regenerate README
         run: python3 generate.py
 
-      - name: Fail if README is out of date
+      # On a merge/push to main (not on PRs): commit the refreshed README back,
+      # so the generated README stays in sync without anyone running the script.
+      - name: Commit updated README
+        if: github.event_name != 'pull_request'
         run: |
           if ! git diff --quiet README.md; then
-            echo "::error::README.md is out of date. Run 'python3 generate.py' and commit the result."
-            git diff README.md
-            exit 1
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs: regenerate README [skip ci]"
+            git push
+          else
+            echo "README already up to date."
           fi
 
       - name: Check repos (forks / archived / dead links)

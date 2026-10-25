@@ -23,13 +23,11 @@ it by hand. You only ever touch the data files.
    - **`description`** — one clear sentence. No trailing period preference, but
      keep it short.
 
-3. Regenerate and validate:
+3. Commit **only** your data change and open a pull request. **You do not need to
+   touch `README.md`** — it is regenerated automatically once your PR is merged.
 
-   ```bash
-   python3 generate.py --check
-   ```
-
-4. Commit both your data change **and** the regenerated `README.md`.
+   (Optional, if you have Python handy, you can preview the result locally with
+   `python3 generate.py` — but don't commit the generated `README.md`.)
 
 ## The golden rule: link the original, not a fork
 
