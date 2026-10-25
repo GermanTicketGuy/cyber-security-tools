@@ -7,7 +7,7 @@ Every entry links to the **original project** (never a fork), and the badges
 below each tool show live star counts and the last commit, so you can tell at a
 glance what is actively maintained.
 
-**94 tools** across **19 categories** · Found something missing? [Add a tool »](CONTRIBUTING.md)
+**95 tools** across **19 categories** · Found something missing? [Add a tool »](CONTRIBUTING.md)
 
 ---
 
@@ -16,7 +16,7 @@ glance what is actively maintained.
 - [🔎 OSINT](#osint) (6)
 - [🛰️ Reconnaissance & Attack Surface](#reconnaissance--attack-surface) (6)
 - [📡 Network Scanning](#network-scanning) (5)
-- [🕸️ Web Application Security](#web-application-security) (6)
+- [🕸️ Web Application Security](#web-application-security) (7)
 - [💥 Exploitation & Red Team](#exploitation--red-team) (6)
 - [🎛️ Command & Control (C2)](#command--control-c2) (5)
 - [🔑 Password Attacks & Wordlists](#password-attacks--wordlists) (5)
@@ -85,6 +85,7 @@ glance what is actively maintained.
 
 | Tool | Stars | Last commit | Description |
 | --- | --- | --- | --- |
+| **[Darkmoon](https://github.com/ASCIT31/Dark-Moon)** | ![Stars](https://img.shields.io/github/stars/ASCIT31/Dark-Moon?style=flat&label=&color=444) | ![Last commit](https://img.shields.io/github/last-commit/ASCIT31/Dark-Moon?style=flat&label=&color=555) | Open source autonomous AI penetration testing platform that tests web apps and APIs and proves each finding with a real exploit. |
 | **[ffuf](https://github.com/ffuf/ffuf)** | ![Stars](https://img.shields.io/github/stars/ffuf/ffuf?style=flat&label=&color=444) | ![Last commit](https://img.shields.io/github/last-commit/ffuf/ffuf?style=flat&label=&color=555) | Fast web fuzzer for content discovery, parameters and virtual hosts. |
 | **[Nikto](https://github.com/sullo/nikto)** | ![Stars](https://img.shields.io/github/stars/sullo/nikto?style=flat&label=&color=444) | ![Last commit](https://img.shields.io/github/last-commit/sullo/nikto?style=flat&label=&color=555) | Web server scanner that checks for thousands of dangerous files and misconfigs. |
 | **[Nuclei](https://github.com/projectdiscovery/nuclei)** | ![Stars](https://img.shields.io/github/stars/projectdiscovery/nuclei?style=flat&label=&color=444) | ![Last commit](https://img.shields.io/github/last-commit/projectdiscovery/nuclei?style=flat&label=&color=555) | Template-based vulnerability scanner powered by a huge community ruleset. |
